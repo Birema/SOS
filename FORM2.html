@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="eng"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+        .contact-form {
+            background-color: #ffe5b4;
+            border: 5px solid #000000;
+            padding: 20px;
+            width: 500px;
+
+        }
+        .contact-form h1 {
+            background-color: #d9534f;
+            color: white;
+            text-align: center;
+            margin: 0 -20px 20px;
+            padding: 10px;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            border-width: 0px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 2px;
+            border-radius: 5px;
+            background-color: #fff7e6;
+            padding: 25px;
+        }
+        .contact-form textarea {
+            resize: none;
+            height: 100px;
+            padding-right: 3px;
+        }
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #ffdd00;
+            color: #000;
+            border: 2px solid #000;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .contact-form button:hover {
+            background-color: #e6c300;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-form">
+        <h1>Contact Us!</h1>
+        
+            <input type="text" name="name" placeholder="Name....." required="">
+            <input type="email" name="email" placeholder="Email....." required="">
+            <input type="text" name="subject" placeholder="Subject....." required="">
+            <textarea name="message" placeholder="Message........" required=""></textarea>
+        
+            <button type="submit">SEND MESSAGE</button>
+        
+    </div>
+
+
+
+
+</body></html>

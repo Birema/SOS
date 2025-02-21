@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 3px solid #030303;
+            text-align: left;
+        }
+
+        th {
+            background-color: #fff;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 90%;
+            padding: 6px;
+            border: 2px solid #020202;
+        }
+
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: 90%;
+            padding: 6px;
+            border: 2px solid #050505;
+        }
+    </style>
+
+</head>
+
+<body>
+    <table style="margin-top: 160px;">
+        <tr>
+            <th colspan="2"><h1>Sign In</h1></th>
+        </tr>
+        <tr>
+            <th>E-mail Address</th>
+            <td><input type="email" name="email" required></td>
+        </tr>
+        <tr>
+            <th>Password</th>
+            <td><input type="password" name="password" required></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <button type="submit">Sign In</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
